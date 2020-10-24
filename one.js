@@ -21,3 +21,33 @@ function conversor(temp) {
 }
 conversor(temp)
 alert(`${temp}°C = ${resultado}°F`) */
+
+
+//EJERCICIO 3 
+/* var num = parseInt(prompt("Dame un num"))
+
+function conversor(num) {
+
+  resultado = num / 10
+
+}
+conversor(num)
+alert(`${num} divido entre 10 es: ${resultado}`) */
+
+
+//EJERCICIO 4
+/* var dato = prompt("Dame un dato")
+if (isNaN(dato)) {
+  alert("Es un string")
+} else {
+  alert("Es número")
+} */
+/* var a = [1, 3, 4]
+var b = 25
+var c = "Hola Mundo"
+console.log(typeof a)
+console.log(typeof b)
+console.log(typeof c)
+ */
+
+
