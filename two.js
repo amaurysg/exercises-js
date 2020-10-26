@@ -68,10 +68,30 @@ if (sumAngulos > 180) {
  */
 //EJERCICIO 11
 
-var str = "hola"
+/* var str = "hola"
 if (str.charAt(0) !== str.charAt(0).toLocaleLowerCase()) {
   console.log(`${str.charAt(0)} es Mayúscula`)
 } else {
   console.log(`${str.charAt(0)} NO es Mayúscula`)
 }
+ */
 
+
+//EJERCICIO 12 
+/* var year = prompt("Dame un año 🙄")
+
+if (year % 4 == 0 && year % 10 !== 0 || year % 400 == 0) {
+  console.info("Es Bisiesto")
+} else {
+  console.info("No es bisiesto")
+} */
+
+//EJERCICIO 13
+
+/* var maquina = getRandomInt = (min, max) => {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+var a = getRandomInt(1, 10)
+console.log(a)
+var user = parseInt(prompt("Dame un número"))
+user == a ? alert("Ganaste") : alert("Sigue intentado") */
