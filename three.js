@@ -54,11 +54,51 @@ for (i = 0; i < 11; i++) {
 
 //EJERCICIO 20 
 
-num = 9
+/* num = 5
 cont = 0
 for (i = 0; i <= num; i++) {
-  /* console.log(i) */
+  console.log(i)
   cont = cont + i
+  console.log("cont ciclo", cont)
+
 }
 
-console.log("cont", cont)
+console.log("cont", cont) */
+
+//EJERCICIO 21
+/* var numI = parseInt(prompt("Dame número Inicial"))
+var numF = parseInt(prompt("Dame número Final"))
+contPares = 0
+
+for (i = numI; i < numF + 1; i++) {
+  if (i % 2 == 0) {
+    console.log(i)
+    contPares++
+  }
+}
+console.log("Num pares:", contPares)
+ */
+
+//EJERCICIO 21
+
+/* var num = prompt("Dame num")
+var numLimite = prompt("num limite")
+var cont = 0
+for (i = 0; i <= numLimite; i++) {
+  cont += i
+  console.log(i)
+}
+console.log(`Con limite ${numLimite} :`, cont) */
+
+//EJERCICIO 22
+/* var num = 5
+var fact = 1
+for (i = 1; i <= num; i++) {
+
+  fact = fact * i
+
+
+}
+console.log(fact) */
+
+
