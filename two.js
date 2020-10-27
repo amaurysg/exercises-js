@@ -95,3 +95,19 @@ var a = getRandomInt(1, 10)
 console.log(a)
 var user = parseInt(prompt("Dame un número"))
 user == a ? alert("Ganaste") : alert("Sigue intentado") */
+
+//EJERCICIO 14
+
+//AGREGE ELSE IF PARA SOLUCÍON
+/* var edad = 12
+
+if (edad <= 13) {
+  console.log("Es niño");
+} else if (edad <= 18) {
+  console.log("Es adolecente");
+} else {
+  console.log("Es adolecente");
+} */
+
+//EJERCICIO 15 TABLA DE VERDAD 
+
