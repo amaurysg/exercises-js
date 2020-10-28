@@ -1,4 +1,4 @@
-//EJERCICIO 26 
+//EJERCICIO 26
 /* function getNum(num) {
   console.log(`Hola ${num}`)
 }
@@ -31,7 +31,7 @@ console.log(typeDat(5))  */
 
 //EJERCICIO 30
 
-(function muuAlert() {
+/* (function muuAlert() {
   alert("Muuuuuu")
 }
-)()
+)() */
