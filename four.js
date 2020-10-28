@@ -60,7 +60,7 @@ if (cont == num) {
  */
 //EJERCICIO 26 NUMEROS PRIMOS HASTA N user 
 
-/* var num = 10
+/* /* var num = 10
 var cont = 0
 for (i = 1; i <= num; i++) {
 
@@ -72,8 +72,8 @@ for (i = 1; i <= num; i++) {
 
 }
 console.log(cont) */
-
-/* var c = 5
+/*
+var c = 25
 
 var numerosPrimos = [];
 var numerosNoPrimos = [];
@@ -90,6 +90,10 @@ for (j = 2; j < c; j++) {
 
 console.log(numerosPrimos);
 console.log(numerosNoPrimos)
+
+
+
+//FUNCION PRIMO
 function primo(numero) {
 
   for (var i = 2; i < numero; i++) {
@@ -104,31 +108,35 @@ function primo(numero) {
 }
  */
 
-var n = prompt('ingrese un número');   // "n" va ser el numero a analizar
 
-var i, divi = 0;
 
-for (i = 1; i <= n; i++)                // se analiza un número a la vez 
-{
 
-  if (n % i == 0)          // va buscar divisores con resto cero
-  {
 
-    divi++;       // acumula mis divisores en 1   // si acumula más de 2 divisores NO es primo. Si solo acumula dos ES primo
+
+
+
+
+
+
+
+/* num = 4
+for (i = 0; i <= num; i++) {
+  document.write("*")
+
+}
+document.write("<br>")
+for (i = 0; i < num - 2; i++) {
+  document.write("*")
+  for (j = 0; j < num - 2; j++) {
+    document.write(" ")
   }
-}
-
-
-if (divi == 2)    // analiza si solo tuvo 2 divisores con cero
-{
-
-  document.write('el numero es primo');
+  document.write("<br>")
 
 }
 
-else                                          // si hubo mas de 2 divisores no es primo
-{
-  document.write('el numero no es primo');
-}
+for (i = 0; i <= num; i++) {
+  document.write("*")
+
+} */
 
 
