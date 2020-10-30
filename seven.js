@@ -135,14 +135,65 @@ console.log(arrP)
 compare(arr1, arr2) */
 
 
-var arr1 = [1, 2, 3];
-var arr2 = [4, 5, 6];
+/* var arr1 = [1, 2, 3];
+var arr2 = [4, 5, 7];
 var r = [];
 
 for (i = 0; i < arr1.length; i++) {
-  r[i] = arr1[i] + arr2[i];
+  r.push(arr1[i] + arr2[i])
+  //  r[i] = arr1[i] + arr2[i]
 }
+console.log(r); */
+/* var arr1 = [1, 2, 3];
+var arr2 = [4, 5, 7];
+//var r = arr1.concat(arr2)
+//var r = [...arr1, ...arr2];
+console.log(r) */
 
-console.log(r);
+
+//EJERCICIO 47
+/* var arr1 = [1, 2, 3, 4, 5]
+var arrR = []
+
+function show() {
+  arr1.reduce((acc, e) => {
+    if (e % 2 == 0) {
+      arrR.push(e)
+    }
+  })
+}
+show()
+console.log(arrR) */
+
+/*
+var arr1 = [1, 2, 3, 4, 5]
+var n = []
+
+const resultado = arr1.reduce((acc, item) => {
+  if (item % 2 === 0) {
+    n.push(item)
+  }
+
+}, 0)
+console.log(n)
+console.log(resultado) */
 
 
+//EJERCICIO 47
+/* var palabras = ["amaury", "lorena", "ana", "patricia", "emiro", "mundo", "uva", "ortencia", "pedro"]
+var result = []
+var na = []
+
+function showNameVocals() {
+  for (i = 0; i < palabras.length; i++) {
+    var inicial = palabras[i].charAt(0)
+    if ((inicial == "a") || (inicial == "e") || (inicial == "i") || (inicial == "o") || (inicial == "u")) {
+      result.push(palabras[i])
+    } else {
+      na.push(palabras[i])
+    }
+  }
+}
+showNameVocals()
+console.log("resultado:", result)
+console.log("na:", na) */
