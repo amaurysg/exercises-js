@@ -201,7 +201,7 @@ console.log('join point:', computeJoinPoint(57, 78)); */
 //console.log(sumDigits(18))
 
 
-
+/*
 function foundPoints(num1, num2) {
 
   const sumDigits = (num) => {
@@ -231,4 +231,33 @@ function foundPoints(num1, num2) {
   }
 }
 
-console.log(foundPoints(78, 480))
+console.log(foundPoints(78, 480)) */
+
+
+/* class Mascotas {
+  constructor(name, age, status) {
+    this.name = name,
+      this.age = age,
+      this.status = status
+  }
+  miMetodoUno() {
+    console.log(`Mi nombre es ${this.name}`)
+  }
+  whatIsMain() {
+    if (catOne.age > catTwo.age) {
+      console.log(`El gato uno es mayor`)
+    } else {
+      console.log("el gato dos es mayor")
+    }
+
+  }
+}
+
+
+
+var catOne = new Mascotas("felix", 8, "live")
+var catTwo = new Mascotas("Sheldón", 12, "Dead")
+var catThree = new Mascotas("Pepo", 9, "Dead")
+
+catOne.miMetodoUno()
+catTwo.miMetodoUno() */
