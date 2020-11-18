@@ -79,5 +79,5 @@ var suma5 = creaSumador(5);
 var suma10 = creaSumador(10);
 
 
-console.log(suma5()(suma5()));  // muestra 7
+console.log(suma5(8));  // muestra 7
 console.log(suma10); // muestra 12 
