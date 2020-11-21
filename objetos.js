@@ -81,3 +81,29 @@ var suma10 = creaSumador(10);
 
 console.log(suma5(8));  // muestra 7
 console.log(suma10); // muestra 12 
+
+//CLOSURES -HOISTING 
+var Counter = (function() {
+  var privateCounter = 0;
+  function changeBy(val) {
+    privateCounter += val;
+  }
+  return {
+    increment: function() {
+      changeBy(1);
+    },
+    decrement: function() {
+      changeBy(-1);
+    },
+    value: function() {
+      return privateCounter;
+    }
+  }   
+})();
+
+alert(Counter.value()); /* Muestra 0 */
+Counter.increment();
+Counter.increment();
+alert(Counter.value()); /* Muestra 2 */
+Counter.decrement();
+alert(Counter.value()); /* Muestra 1 */ 
