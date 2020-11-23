@@ -69,7 +69,7 @@ for (const llave in Car) {
   console.log(`${llave}: ${Car[llave]}`)
 } */
 
-function creaSumador(x) {
+/* function creaSumador(x) {
   return function(y) {
     return x + y;
   };
@@ -100,10 +100,10 @@ var Counter = (function() {
     }
   }   
 })();
-
-alert(Counter.value()); /* Muestra 0 */
+ */
+/* alert(Counter.value());
 Counter.increment();
 Counter.increment();
-alert(Counter.value()); /* Muestra 2 */
+alert(Counter.value()); 
 Counter.decrement();
-alert(Counter.value()); /* Muestra 1 */ 
+alert(Counter.value()); */
